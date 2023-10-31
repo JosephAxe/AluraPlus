@@ -1,0 +1,120 @@
+ @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+:root {
+    --branco-principal: #FFFFFF;
+    --cinza-secundario: #c0c0c0;
+    --botao-azul: #167bf7;
+    --cor-de-fundo: #000000;
+
+    --fonte-principal: font-family: 'Inter', sans-serif;
+}
+
+* {
+    margin: 0;/*reseta as margens*/
+    padding: 0;/*reseta os paddings*/
+}
+
+
+body {
+    background-color: var(--cor-de-fundo);
+    color: var(--branco-principal);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.principal {
+    background-image: url("../assets/Background.png");  
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+    text-align: center;
+}
+
+.container__caixa {
+    margin:0 6em;
+}
+
+.container__titulo {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.container__imagem {
+    margin: 1em 0 2em 0;
+}
+
+.container__botao {
+    background-color: var(--botao-azul);
+    border-radius: 5px;
+    padding: 1em;
+    color: var(--branco-principal);
+    display: block;
+    text-decoration: none;
+    margin: 1em;
+}
+
+.botao_secundario {
+    background-color: transparent;
+    border: 2px solid var(--branco-principal)
+}
+
+.container__aviso {
+    font-size: 12px;
+    color: var(--cinza-secundario);
+}
+
+.secundario {
+    align-items: center;
+    margin: 0 10em;
+}
+
+.secundario__imagem {
+    width: 80%;
+
+}
+
+.container__descricao {
+    padding: 2em;
+    
+}
+
+.descricao__titulo {
+    font-size: 48px;
+    font-weight: 700;
+    color: var(--branco-principal);
+    margin-bottom: 0.1em;
+
+}
+
+.descricao__texto {
+    color: var(--cinza-secundario)
+}
+
+.botao__terciario {
+    display: inline-block;
+    margin-top: 1em;
+}
+
+
+
+.principal__secao4 {
+    display: flex;
+    justify-content: center;
+}
+
+.principal__secao4__divisao {
+    display: flex;
+    justify-content: center;
+}
+
+.rodape {
+    display: flex;
+    justify-content: center;
+}
