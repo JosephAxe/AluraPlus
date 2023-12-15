@@ -189,8 +189,7 @@ body {
         background-image: none;
     }
 
-    .container__imagem
-    {
+    .container__imagem {
         width: 50vw;
     }
 
@@ -203,15 +202,12 @@ body {
     .secundario {
         margin: 0;
         text-align: center;
-        }
+    }
     
     .secundario__imagem {
-            width: 50vw;
-        }
+            width: 30vw;
+    }
         
-
-    
-    
     .dipositivos__lista {
         display: block;
     }
